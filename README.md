@@ -291,7 +291,7 @@ MIT License - See LICENSE file for details
 ## Contact & Support
 
 - **Author**: Arun Kurpati
-- **Email**: contact@example.com
+- **Email**: arunkurpati73@gmail.com
 - **GitHub Issues**: For bugs and feature requests
 
 ---
