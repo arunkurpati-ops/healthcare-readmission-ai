@@ -1,0 +1,55 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Environment files
+.env
+.env.local
+
+# CRITICAL: Never commit real patient data
+data/*.csv
+data/*.json
+data/raw/
+data/processed/
+*.pickle
+*.pkl
+
+# Model files
+models/*.pkl
+models/*.h5
+models/*.joblib
+
+# Credentials - SECURITY CRITICAL
+*.pem
+*.key
+secrets/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Output files
+output/
+results/
+
+# Jupyter
+.ipynb_checkpoints
+
+# DO NOT COMMIT:
+# - Patient data or PII
+# - API keys, credentials
+# - Healthcare records
+# - Real clinical data
